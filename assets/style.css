@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'manuscrito';
+    src: url('fontes/adelia.otf') format('opentyoe'), url('fontes/adelia.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    color: #497375;
+}
+
+header {
+    background-color: #497375;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-image img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.products {
+    padding: 50px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: normal;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-item {
+    border: 2px solid #497375;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+}
+
+.product-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#logo_header {
+    width: 120px;
+    margin-top: -35px;
+}
+
+.header-container {
+    height: 50px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.manuscrito {
+    padding: 25px;
+    font-family: 'manuscrito';
+    text-align: center;
+    font-size: medium;
+}
+
+.cards {
+    background-color: #497375;
+    color: white;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    /* Usando flexbox para organizar os itens */
+    align-items: center;
+    /* Centraliza verticalmente os itens */
+    width: 100%;
+    /* Ocupa 100% da largura da página */
+    padding: 10px;
+    /* Espaço interno para a div */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.square {
+    width: 20%;
+    /* O quadrado ocupa 20% da largura da linha */
+    padding: 25px;
+    /* Mantém a altura igual à largura para formar um quadrado */
+    background-color: white;
+    /* Cor de fundo */
+    color: #497375;
+    /* Cor da palavra dentro do quadrado */
+    display: flex;
+    /* Flexbox para alinhar o conteúdo dentro do quadrado */
+    justify-content: center;
+    /* Centraliza horizontalmente o texto dentro do quadrado */
+    align-items: center;
+    /* Centraliza verticalmente o texto dentro do quadrado */
+    font-size: 15px;
+    /* Tamanho da palavra */
+    border-radius: 10px;
+    /* Canto arredondado para o quadrado */
+    margin-right: 10px;
+    /* Espaço entre o quadrado e a caixa de texto */
+}
+
+
+footer {
+    background-color: white;
+    color: #497375;
+    padding: 10px;
+    text-align: center;
+}
